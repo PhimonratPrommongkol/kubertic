@@ -1,0 +1,7 @@
+docker pull imsuriyapi/todo-app:v4
+kubectl apply -f .\sample-pod.yml
+
+kubectl get all //เช็ค
+kubectl logs
+
+kubectl delete all --all ลบทิ้ง
