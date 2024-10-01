@@ -5,14 +5,14 @@ metadata:
 spec:
   replicas: 3
   selector:
-    matchLables:
+    matchLabels:
       app: client
   template:
     metadata:
-        name: client-pods
-        labels:
-            app: client
+      name: client-pods
+      labels:
+        app: client
     spec:
       containers:
-        - name: client
-          image: imsuriyapi/todo-app:v4    
+      - name: client
+        image: imsuriyapi/todo-app:v4 
