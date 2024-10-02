@@ -5,3 +5,8 @@ kubectl get all //เช็ค
 kubectl logs
 
 kubectl delete all --all ลบทิ้ง
+
+http://localhost:30002/api/health
+http://localhost:30002/api/todo
+
+docker pull mongo
